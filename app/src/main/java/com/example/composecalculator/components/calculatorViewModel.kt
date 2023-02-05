@@ -7,9 +7,13 @@ import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
 
 class CalculatorViewModel : ViewModel() {
-    var state by mutableStateOf(
-        CalculatorState()
-    )
+
+    //    var state by mutableStateOf(
+//        CalculatorState()
+//    )
+        var state by mutableStateOf(
+            CalculatorState()
+        )
         //that state cannot be changed but can be accessed
         private set
 
